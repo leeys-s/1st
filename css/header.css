@@ -1,0 +1,76 @@
+.header {
+  background-color: skyblue;
+  height: 60px;
+}
+.header-layout {
+  background-color: yellow;
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
+.layout-left {
+}
+.header-logo {
+}
+
+.header-logo-link {
+}
+.header-logo-link img {
+}
+
+.header-recruit {
+}
+.header-recruit-link {
+}
+.header-recruit-link img {
+}
+/* css에서 before 로 채용 앞에 그림 넣어주기 */
+
+.header-career {
+}
+.header-career-link {
+}
+
+.header-social {
+}
+.header-social-link {
+}
+
+.header-resume {
+}
+.header-resume-link {
+}
+
+.header-freelancer {
+}
+.header-freelancer-link {
+}
+
+.header-more {
+}
+.header-more-link {
+}
+
+/* 헤더 돋보기 / 회원가입로그인 / 기업서비스 부분 */
+.layout-right {
+}
+.header-search {
+}
+.header-search-icon {
+}
+.header-search-icon img {
+}
+
+.header-sign-up {
+}
+.header-sign-up-icon {
+}
+/*회원가입/로그인 css 활용해서 모서리 둥글고, 글자색 파란색, 배경 흰색 -->
+ */
+.header-bs {
+}
+.header-bs-icon {
+}
+/* 기업서비스 둥글고, 글자색 검정, 배경 흰색 */
+
+/* 기초작업 부분 */

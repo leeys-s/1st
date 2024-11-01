@@ -1,0 +1,55 @@
+/* footer 시작 */
+.footer {
+}
+
+.footer-left {
+}
+.footer-logo {
+}
+.footer-logo-pic img {
+}
+
+/* 푸터 로고 옆 기업소개 부분 */
+.footer-right {
+}
+.footer-right-company {
+  display: flex;
+}
+
+/* ul li 활용하기 */
+
+/* 푸터 회사정보 부분 */
+.footer-info {
+}
+
+/* 푸터 저작권 영역 */
+.footer-copyright
+
+/* 푸터 CS영역 */
+.footer-cspart {
+}
+.footer-cspart-cs {
+  display: flex;
+}
+
+/* 푸터 etc / sns 영역 */
+.footer-etc {
+}
+.footer-etc-since {
+}
+
+.footer-etc-sns {
+  display: flex;
+}
+.footer-insta img {
+}
+.footer-facebook img {
+}
+.footer-youtube img {
+}
+.footer-blog img {
+}
+.footer-apple img {
+}
+.footer-playstore img {
+}

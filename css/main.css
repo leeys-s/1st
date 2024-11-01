@@ -1,0 +1,100 @@
+/* 메인 ad 부분 부터 시작 */
+.main {
+}
+.main-ad {
+}
+
+.main-ad-pic img {
+}
+/* 연봉 정보, 이력서 샘플은 파란색 양옆 pic */
+/* cate 9개 임 */
+.main-cate {
+  display: flex;
+  /* 가로로 정렬 시킨 것 */
+  justify-content: center;
+  /* 가로 중앙 정렬 시킨 것 */
+  align-items: center;
+  /* 세로 중앙 정렬 시킨 것 */
+  gap: 30px;
+}
+
+.main-cate1 {
+}
+.main-cate-1 {
+}
+.main-cate-1pic img {
+}
+.main-cate2 {
+}
+.main-cate-2 {
+}
+.main-cate-2pic img {
+}
+.main-cate3 {
+}
+.main-cate-3 {
+}
+.main-cate-3pic img {
+}
+.main-cate4 {
+}
+.main-cate-4 {
+}
+.main-cate-4pic img {
+}
+.main-cate5 {
+}
+.main-cate-5 {
+}
+.main-cate-5pic img {
+}
+.main-cate6 {
+}
+.main-cate-6 {
+}
+.main-cate-6pic img {
+}
+.main-cate7 {
+}
+.main-cate-7 {
+}
+.main-cate-7pic img {
+}
+.main-cate8 {
+}
+.main-cate-8 {
+}
+.main-cate-8pic img {
+}
+.main-cate9 {
+}
+.main-cate-9 {
+}
+.main-cate-9pic img {
+}
+/* 카테고리 9개 끝.
+다음에는 ul li 표 활용해보기 */
+
+/* 굵은 글씨 시작부분 */
+/* 짙은 글씨 다 감싸는 메인 bold의미 */
+.main-text {
+}
+
+/* 모두가 주목하고 있어요 */
+.main-bold1 {
+}
+
+/* 지금 주목할 소식 */
+.main-bold2 {
+}
+/* 테마로 살펴보는 회사/포지션 */
+.main-bold3 {
+}
+/* 출퇴근 걱정없는 역세권 포지션 */
+.main-bold4 {
+}
+/* 요즘 뜨는 포지션 */
+.main-bold5 {
+}
+
+/* 굵은 글씨 main-text 끝  */
