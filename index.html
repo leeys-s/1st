@@ -14,8 +14,57 @@
     <!-- 로고 있는 header 상단 영역 -->
     <header class="header">
       <div class="header-layout">
-        <div class="layout-left"></div>
-        <div class="layout-right"></div>
+        <div class="layout-left">
+          <div id="logo" class="header-logo">
+            <a href="wnated 로고" class="header-logo-link">
+              <img src="./images/wanted_svg/svg-image-1.svg" alt="원티드로고" />
+            </a>
+          </div>
+          <div id="recruit" class="header-recruit">
+            <a href="채용" class="header-recruit-link">
+              <img src="./images/wanted_svg/svg-image-2.svg" alt="채용pic" />
+              채용</a
+            >
+            <!-- css에서 before 로 채용 앞에 그림 넣어주기. -->
+          </div>
+          <div id="career" class="header-career">
+            <a href="커리어" class="header-career-link">커리어</a>
+          </div>
+          <div id="social" class="header-social">
+            <a href="소셜" class="header-social-link">소셜</a>
+          </div>
+          <div id="resume" class="header-resume">
+            <a href="이력서" class="header-resume-link"> 이력서</a>
+          </div>
+
+          <div id="'freelancer" class="header-freelancer">
+            <a href="커리어" class="header-freelancer-link"> 프리랜서</a>
+          </div>
+          <div id="'more" class="header-more">
+            <a href="더보기" class="header-more-link"> 더보기</a>
+          </div>
+        </div>
+        <!-- 헤더 돋보기 회원가입/로그인 기업서비스 시작부분 -->
+        <div class="layout-right">
+          <div id="search" class="header-search">
+            <a href="돋보기 icon" class="header-search-icon">
+              <img
+                src="./images/wanted_svg/svg-image-4.svg"
+                alt="돋보기 icon"
+              />
+            </a>
+          </div>
+          <div id="sign-up" class="header-sign-up">
+            <a href="회원가입/로그인" class="header-sign-up-icon">
+              회원가입/로그인
+            </a>
+          </div>
+          <!-- 회원가입/로그인 css 활용해서 모서리 둥글고, 글자색 파란색, 배경 흰색? -->
+          <div id="bs" class="header-bs">
+            <a href="기업서비스" class="header-bs-icon"> 기업서비스 </a>
+          </div>
+        </div>
+        <!-- 돋보기 마지막 부분 -->
       </div>
     </header>
     <!-- 상단 헤더 종료 부분부분임 -->
@@ -24,107 +73,95 @@
     <main class="main">
       <!-- 헤더 밑 광고 문구 부분 -->
       <div class="main-ad">
-        <div id="ad" class="main-ad">
+        <div id="ad" class="main-ad-area">
           <a href="글입력구간" class="main-ad-pic">
-            <img src=".이미지있는곳 적어줄것" alt="ad-pic" />
-            (그림)로그인하면 연봉 정보, 이력서 샘플 등 유용한 정보를 얻을 수
-            있어요. (화살표그림)
+            <img src="./images/ad1.webp" alt="ad-pic" class="main-ad-icon" />
+            로그인하면 <b class="ad-font">연봉 정보, 이력서 샘플</b> 등 유용한
+            정보를 얻을 수 있어요.
+            <img
+              src="./images/wanted_svg/svg-image-6.svg"
+              alt="ad-point"
+              class="main-ad-point"
+            />
           </a>
         </div>
       </div>
-      <!-- 광고 밑 아이콘 부분 9개 각각 그림 밑 링크 있음. -->
-      <div class="main-cate">
-        <div class="main-cate1">
-          <div id="cate-1" class="main-cate-1">
-            <a href="채용공고" class="main-cate-1pic">
-              <img src=".이미지있는곳 적어줄것" alt="cate-1"
-            /></a>
-          </div>
-        </div>
-        <div class="main-cate2">
-          <div id="cate-2" class="main-cate-2">
-            <a href="이력서관리" class="main-cate-2pic">
-              <img src=".이미지있는곳 적어줄것" alt="cate-2"
-            /></a>
-          </div>
-        </div>
 
-        <div class="main-cate3">
-          <div id="cate-3" class="main-cate-3">
-            <a href="커리어조회" class="main-cate-3pic">
-              <img src=".이미지있는곳 적어줄것" alt="cate-3"
-            /></a>
-          </div>
-        </div>
-        <div class="main-cate4">
-          <div id="cate-4" class="main-cate-4">
-            <a href="지원현황" class="main-cate-4pic">
-              <img src=".이미지있는곳 적어줄것" alt="cate-4"
-            /></a>
-          </div>
-        </div>
-        <div class="main-cate5">
-          <div id="cate-5" class="main-cate-5">
-            <a href="커리어코칭" class="main-cate-5pic">
-              <img src=".이미지있는곳 적어줄것" alt="cate-5"
-            /></a>
-          </div>
-        </div>
-        <div class="main-cate6">
-          <div id="cate-6" class="main-cate-6">
-            <a href="다음커리어찾기" class="main-cate-6pic">
-              <img src=".이미지있는곳 적어줄것" alt="cate-6"
-            /></a>
-          </div>
-        </div>
-        <div class="main-cate7">
-          <div id="cate-7" class="main-cate-7">
-            <a href="나만의 회사 찾기" class="main-cate-7pic">
-              <img src=".이미지있는곳 적어줄것" alt="cate-7"
-            /></a>
-          </div>
-        </div>
-        <div class="main-cate8">
-          <div id="cate-8" class="main-cate-8">
-            <a href="직군별 연봉" class="main-cate-8pic">
-              <img src=".이미지있는곳 적어줄것" alt="cate-8"
-            /></a>
-          </div>
-        </div>
-        <div class="main-cate9">
-          <div id="cate-9" class="main-cate-9">
-            <a href="원티드 포인트" class="main-cate-9pic">
-              <img src=".이미지있는곳 적어줄것" alt="cate-9"
-            /></a>
-          </div>
-        </div>
+      <!-- 광고 밑 아이콘 부분 9개 각각 그림 밑 링크 있음. -->
+      <!-- <span> 태그는 웹페이지에서 작은 글씨나 문장 부분을 따로 표시하고 꾸밀 때 사용하는 도구라고 생각 -->
+
+      <div class="main-cate">
+        <a href="채용공고">
+          <img src="./images/cate_icon/icon1.svg" alt="cate-1" />
+          <span>채용공고</span>
+        </a>
+        <a href="이력서관리">
+          <img src="./images/cate_icon/icon2.svg" alt="cate-2" />
+          <span>이력서관리</span>
+        </a>
+        <a href="커리어조회">
+          <img src="./images/cate_icon/icon3.svg" alt="cate-3" />
+          <span>커리어조회</span>
+        </a>
+        <a href="지원현황">
+          <img src="./images/cate_icon/icon4.svg" alt="cate-4" />
+          <span>지원현황</span>
+        </a>
+        <a href="커리어코칭">
+          <img src="./images/cate_icon/icon5.svg" alt="cate-5" />
+          <span>커리어코칭</span>
+        </a>
+        <a href="다음커리어찾기">
+          <img src="./images/cate_icon/icon6.svg" alt="cate-6" />
+          <span>다음커리어찾기</span>
+        </a>
+        <a href="나만의 회사 찾기">
+          <img src="./images/cate_icon/icon7.svg" alt="cate-7" />
+          <span>나만의 회사 찾기</span>
+        </a>
+        <a href="직군별 연봉">
+          <img src="./images/cate_icon/icon8.svg" alt="cate-8" />
+          <span>직군별 연봉</span>
+        </a>
+        <a href="원티드 포인트">
+          <img src="./images/cate_icon/icon9.svg" alt="cate-9" />
+          <span>원티드 포인트</span>
+        </a>
       </div>
       <!-- 메인 카테고리 9 개 끝, 다음에는 ui li 표 이용해보기. 일단 패스 -->
       <!-- 모두가 주목하고 있어요. -->
-      <div class="main-text">
-        <div class="main-bold1">모두가 주목하고 있어요!</div>
+      <!-- 굵은 글씨 제목에 (<h1></h1> 활용 heading 의미임) -->
+
+      <div>
+        <h1>모두가 주목하고 있어요!</h1>
         <!-- 모두가 주목하고 있어요. [우측 더보기] -->
         <!-- 모두가 주목하고 있어요. [주요내용] -->
-        <div class="main-bold2">지금 주목할 소식!</div>
-        <!-- 지금 주목할 소식 -->
-        <!-- 지금 주목할 소식 [우측 더보기]-->
-        <!-- 지금 주목할 소식 [주요내용]-->
-        <div class="main-bold3">테마로 살펴보는 회사/포지션</div>
-        <!-- 테마로 살펴보는 회사/포지션 -->
-        <!-- 테마로 살펴보는 회사/포지션 [우측 더보기] -->
-        <!-- 테마로 살펴보는 회사/포지션 [주요내용] -->
-        <div class="main-bold4">출퇴근 걱정없는 역세권 포지션</div>
-        <!-- 출퇴근 걱정없는 역세권 포지션 -->
-        <!-- 출퇴근 걱정없는 역세권 포지션 [역 아이콘] -->
-        <!-- 출퇴근 걱정없는 역세권 포지션 [우측 더보기] -->
-        <!-- 출퇴근 걱정없는 역세권 포지션 [주요내용] -->
-        <!-- 출퇴근 걱정없는 역세권 포지션 [주요내용.left] -->
-        <!-- 출퇴근 걱정없는 역세권 포지션 [주요내용.right] -->
-        <div class="main-bold5">요즘 뜨는 포지션</div>
+        <div>
+          <button></button>
+          <button></button>
+        </div>
       </div>
+      <div>목록</div>
+      <h2>지금 주목할 소식!!</h2>
+      <!-- 지금 주목할 소식 -->
+      <!-- 지금 주목할 소식 [우측 더보기]-->
+      <!-- 지금 주목할 소식 [주요내용]-->
+      <h3>테마로 살펴보는 회사/포지션</h3>
+      <!-- 테마로 살펴보는 회사/포지션 -->
+      <!-- 테마로 살펴보는 회사/포지션 [우측 더보기] -->
+      <!-- 테마로 살펴보는 회사/포지션 [주요내용] -->
+      <h4>출퇴근 걱정없는 역세권 포지션</h4>
+      <!-- 출퇴근 걱정없는 역세권 포지션 -->
+      <!-- 출퇴근 걱정없는 역세권 포지션 [역 아이콘] -->
+      <!-- 출퇴근 걱정없는 역세권 포지션 [우측 더보기] -->
+      <!-- 출퇴근 걱정없는 역세권 포지션 [주요내용] -->
+      <!-- 출퇴근 걱정없는 역세권 포지션 [주요내용.left] -->
+      <!-- 출퇴근 걱정없는 역세권 포지션 [주요내용.right] -->
+      <h5>요즘 뜨는 포지션</h5>
       <!-- 요즘 뜨는 포지션 -->
       <!-- 요즘 뜨는 포지션 [우측 더보기] -->
       <!-- 요즘 뜨는 포지션 [주요내용] -->
+      <div></div>
     </main>
 
     <!-- 여기부터 footer 영역 -->
