@@ -92,25 +92,98 @@
 
 /* 굵은 글씨 시작부분 */
 /* 짙은 글씨 다 감싸는 메인 bold의미 */
-.main-text {
+/* 모두가 주목하고 있어요 */
+
+.main-text1 {
   background-color: aqua;
 }
-
-/* 모두가 주목하고 있어요 */
-.main-bold1 {
+.main-text1-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: yellow; */
 }
+
+/* 11월 5일 오후 작업 종료 */
+.text1-cate {
+  /* background-color: yellow; */
+}
+.text1-cate .cate ul {
+  display: flex;
+}
+.text1-cate .cate ul li a {
+  text-decoration: none;
+}
+.text1-cate .cate ul li a .img-area {
+  width: 250px;
+  height: 168px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.text1-cate .cate ul li a:hover .img-area img {
+  transform: scale(2);
+  /* 마우스에 따라서 커지는 액션 */
+}
+
+.text1-cate .cate ul li a .img-area img {
+  transition: all 0.5s;
+}
+
+.thumb-title {
+  display: block;
+}
+.thumb-company {
+  display: block;
+}
+.thumb-info {
+  display: block;
+}
+/*
+.main-text1 .bt {
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #0066ff;
+}
+
+.text1-cate {
+}
+.text1-cate .cate {
+} */
 
 /* 지금 주목할 소식 */
-.main-bold2 {
+.main-text2 {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aquamarine;
 }
 /* 테마로 살펴보는 회사/포지션 */
-.main-bold3 {
+.main-text3 {
+  display: flex;
+  margin: 0 auto;
+  align-items: top;
+  justify-content: space-between;
+  background-color: beige;
 }
 /* 출퇴근 걱정없는 역세권 포지션 */
-.main-bold4 {
+.main-text4 {
+  display: flex;
+  margin: 0 auto;
+  align-items: top;
+  justify-content: space-between;
+  background-color: rgb(106, 194, 62);
 }
 /* 요즘 뜨는 포지션 */
-.main-bold5 {
+.main-text5 {
+  display: flex;
+  margin: 0 auto;
+  align-items: top;
+  justify-content: space-between;
+  background-color: rgb(240, 220, 245);
 }
 
 /* 굵은 글씨 main-text 끝  */
